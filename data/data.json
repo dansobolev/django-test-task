@@ -1,0 +1,44 @@
+{
+    "bills": [
+      {
+        "user": "Daniil",
+        "bill_id": 432543123,
+        "shop": "Дикси",
+        "items": [
+          {
+            "name": "Кока-кола",
+            "quantity": 1,
+            "price": 79.0
+          },
+          {
+            "name": "Хлеб",
+            "quantity": 1,
+            "price": 35.0
+          },
+          {
+            "name": "Лимон",
+            "quantity": 2,
+            "price": 37.0
+          }
+        ]
+      },
+
+      {
+        "user": "Andrey",
+        "bill_id": 5412314532,
+        "shop": "Дикси",
+        "items": [
+          {
+            "name": "Колбаса докторская",
+            "quantity": 1,
+            "price": 229.0
+          },
+          {
+            "name": "Багет",
+            "quantity": 1,
+            "price": 119.0
+          }
+        ]
+      }
+    ]
+}
