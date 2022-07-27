@@ -24,7 +24,7 @@ class FileUploadView(APIView):
                 'user': customer,
                 'bill_id': bill['bill_id'],
                 'shop': shop,
-                'bill_sum': sum([entity['price'] for entity in bill['items']]),
+                'bill_sum': sum([entity['entity_sum'] for entity in bill['items']]),
             }
             bill_obj = Bill.objects.create(**bill_data)
 
